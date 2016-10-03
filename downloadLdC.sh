@@ -7,4 +7,4 @@ unzip master.zip
 mv ListaDeCanales-master/ enigma2/
 rm master.zip
 chmod 777 enigma2/downloadLdC.sh
-mv /enigma2/downloadLdC.sh /usr/script/downloadLdC.sh
+mv /etc/enigma2/downloadLdC.sh /usr/script/downloadLdC.sh
