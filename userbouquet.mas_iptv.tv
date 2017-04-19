@@ -1,13 +1,107 @@
 #NAME Mas IPTV
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//lsd360tvhls-lh.akamaihd.net/i/360TVHLS_1@197877/master.m3u8:360 DEPORTES
-#DESCRIPTION 360 DEPORTES
+#SERVICE 1:64:4A:0:0:0:0:0:0:0:::::::FRANCIA:::
+#DESCRIPTION :::::FRANCIA:::
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//streaming-hub.com/stream/arte.m3u8:ARTE HD
+#DESCRIPTION ARTE HD
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live-s102.abweb.com/liveabs102/ngrp%3aanimaux.stream_bis/chunklist_b1096000.m3u8:ANIMAUX
+#DESCRIPTION ANIMAUX
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream2.omegatv.net/hls-live/livepkgr/_definst_/liveevent/omegatv.m3u8:OMEGA
+#DESCRIPTION OMEGA
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//hlslive.lcdn.une.net.co/v1/AUTH_HLSLIVE/TV5/tu1_1.m3u8:TV5Monde
+#DESCRIPTION TV5Monde
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live-s101.abweb.com/liveabs101/ngrp%3aaction.stream_bis/chunklist_b1096000.m3u8:ACTION
+#DESCRIPTION ACTION
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live-m03.abweb.com/liveabm03/cinepolar.smil/chunklist_b1296000_slFRA.m3u8:POLAR
+#DESCRIPTION POLAR
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/latele/.m3u8:LATELE X
+#DESCRIPTION LATELE X
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/telebielinguech/playlist.m3u8:TeleBielingue
+#DESCRIPTION TeleBielingue
+#SERVICE 1:64:4B:0:0:0:0:0:0:0:::::::ITALIA:::
+#DESCRIPTION :::::ITALIA:::
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//cld02ibi16.wz.tv2000.it/HLS/Tv2000WZ/chunklist.m3u8:Tv 2000 Italia
+#DESCRIPTION Tv 2000 Italia
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//wma07.fluidstream.net%3a1935/TeleArena/livestream/live.m3u8:TELE ARENA
+#DESCRIPTION TELE ARENA
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream12.rai.it/live/smil%3arai5.smil/chunklist_b1200000.m3u8:RAI5
+#DESCRIPTION RAI5
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/rainews_1@179616/index_1200_av-p.m3u8:RAINEWS24
+#DESCRIPTION RAINEWS24
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raimovie_1@67348/index_1200_av-p.m3u8:Rai Movie
+#DESCRIPTION Rai Movie
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raipremium_1@181837/index_1200_av-p.m3u8:Rai Premium
+#DESCRIPTION Rai Premium
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//originstream6.rai.it/italy/smil%3araiscuola.smil/chunklist_b900000.m3u8:RAISCUOLA
+#DESCRIPTION RAISCUOLA
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raigulp_1@66350/index_1200_av-p.m3u8:RAI GULP
+#DESCRIPTION RAI GULP
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8:PARAMOUNT CHANNEL
+#DESCRIPTION PARAMOUNT CHANNEL
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raiyoyo_1@191405/index_1200_av-b.m3u8:RAI YOYO
+#DESCRIPTION RAI YOYO
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//etbvhlsnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@123113/master.m3u8:Canal ITALIA
+#DESCRIPTION Canal ITALIA
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stmv1.hostgs.net%3a1935/jtvmilk/jtvmilk/live.m3u8:MILK TV
+#DESCRIPTION MILK TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//77.78.130.123/hls/hd.m3u8:ROMATV HD
+#DESCRIPTION ROMATV HD
+#SERVICE 1:64:4C:0:0:0:0:0:0:0:::::::SPORTS:::
+#DESCRIPTION :::::SPORTS:::
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//186.33.227.198/DXTV/smil%3aDXTV.smil/playlist.m3u8:DXTV
 #DESCRIPTION DXTV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//clairinlive-a.akamaihd.net/dc-1/live/hls/p/1885581/e/1_8xzo6fux/t/YO19xXbHgW_22sNZezlmTg/master.m3u8:Tyc Sports
+#DESCRIPTION Tyc Sports
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:https%3a//elementaldelta2.redbull.tv/30_5.m3u8:Red Bull TV
+#DESCRIPTION Red Bull TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//adtv.ercdn.net/adsport1/adsport1_720p.m3u8:SPORT 1 HD
+#DESCRIPTION SPORT 1 HD
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//adtv.ercdn.net/adsport2/adsport2_720p.m3u8:SPORT 2 HD
+#DESCRIPTION SPORT 2 HD
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//bit.ly/2cu1v9r?m3u8:Super SPORT
+#DESCRIPTION Super SPORT
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//motorsport.hopto.org%3a8080/:motorsport
 #DESCRIPTION motorsport
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//208.92.36.158/ipad/live/nba_ipad_1240.m3u8:NBA TV
-#DESCRIPTION NBA TV
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//xtvncanalecx.api.channel.livestream.com/3.0/playlist.m3u8:TVN
-#DESCRIPTION TVN
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//tva_chaine_uls-lh.akamaihd.net/i/chaine_tva_1@125892/master.m3u8:TVA Montreal
-#DESCRIPTION TVA Montreal
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel4/_definst_/live/stream1.m3u8:Saudi Sports
+#DESCRIPTION Saudi Sports
+#SERVICE 1:64:4D:0:0:0:0:0:0:0:::::::MUSICA:::
+#DESCRIPTION :::::MUSICA:::
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//tst.es.flash.glb.ipercast.net/tst.es-live//live:HIT TV
+#DESCRIPTION HIT TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:mms%3a//streamqm.uigc.net/qmusica:QMusica
+#DESCRIPTION QMusica
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//fms.105.net%3a1935/live/virgin2:Virgin TV
+#DESCRIPTION Virgin TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//stream.smcloud.net/live/eskatv:ESKATV Music
+#DESCRIPTION ESKATV Music
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//stream.smcloud.net/live/polotv:POLO TV Music
+#DESCRIPTION POLO TV Music
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rtmp.one.by%3a1300:ONE 1 HD
+#DESCRIPTION ONE 1 HD
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//sslhls.m6tv.cdn.sfr.net/hls-live/livepkgr/_definst_/m6_music_hits_hls_aes/m6_music_hits_hls_aes_856.m3u8:M6 MUSIC
+#DESCRIPTION M6 MUSIC
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live.netd.com.tr/S1/HLS_LIVE/dreamtv/1000/prog_index.m3u8:DREAM TV
+#DESCRIPTION DREAM TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//212.96.163.139%3a8020/1-tv-pc/924.m3u8:Rock TV
+#DESCRIPTION Rock TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream.1music.hu/stream/1music.m3u8:The Voice
+#DESCRIPTION The Voice
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//84.43.207.130/planetahd/planetahd.m3u8:PlanetaHD
+#DESCRIPTION PlanetaHD
+#SERVICE 1:64:4E:0:0:0:0:0:0:0:::::::ADULTOS::
+#DESCRIPTION :::::ADULTOS::
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:rtmp%3a//main2sb.everyon.tv%3a1935/etv2sb/_definst_/phd10499:Spice Tv
+#DESCRIPTION Spice Tv
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//edge2.everyon.tv/etv2sb/phd10769/playlist.m3u8:Playy 19+
+#DESCRIPTION Playy 19+
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main1sb.everyon.tv%3a1935/etv1sb/pld10497/exabytetv.m3u8:Playboy Asia
+#DESCRIPTION Playboy Asia
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10772/HasBahCa.m3u8:But Go (18+)
+#DESCRIPTION But Go (18+)
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//edge2.everyon.tv/etv2sb//pld10499:PLAYBOY TV
+#DESCRIPTION PLAYBOY TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10771/HasBahCa.m3u8:Sakura
+#DESCRIPTION Sakura
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10062/HasBahCa.m3u8:Live Ting
+#DESCRIPTION Live Ting
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//edge1.everyon.tv/etv1sb/phd10927:Penthouse
+#DESCRIPTION Penthouse
