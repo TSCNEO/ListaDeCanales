@@ -1,8 +1,6 @@
 #NAME Mas IPTV
-#SERVICE 1:64:4A:0:0:0:0:0:0:0:::::::FRANCIA:::
+#SERVICE 1:64:6b:0:0:0:0:0:0:0:
 #DESCRIPTION :::::FRANCIA:::
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//streaming-hub.com/stream/arte.m3u8:ARTE HD
-#DESCRIPTION ARTE HD
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live-s102.abweb.com/liveabs102/ngrp%3aanimaux.stream_bis/chunklist_b1096000.m3u8:ANIMAUX
 #DESCRIPTION ANIMAUX
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stream2.omegatv.net/hls-live/livepkgr/_definst_/liveevent/omegatv.m3u8:OMEGA
@@ -13,11 +11,9 @@
 #DESCRIPTION ACTION
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//live-m03.abweb.com/liveabm03/cinepolar.smil/chunklist_b1296000_slFRA.m3u8:POLAR
 #DESCRIPTION POLAR
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/latele/.m3u8:LATELE X
-#DESCRIPTION LATELE X
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//rtmp.infomaniak.ch/livecast/telebielinguech/playlist.m3u8:TeleBielingue
 #DESCRIPTION TeleBielingue
-#SERVICE 1:64:4B:0:0:0:0:0:0:0:::::::ITALIA:::
+#SERVICE 1:64:6c:0:0:0:0:0:0:0:
 #DESCRIPTION :::::ITALIA:::
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//cld02ibi16.wz.tv2000.it/HLS/Tv2000WZ/chunklist.m3u8:Tv 2000 Italia
 #DESCRIPTION Tv 2000 Italia
@@ -35,35 +31,23 @@
 #DESCRIPTION RAISCUOLA
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raigulp_1@66350/index_1200_av-p.m3u8:RAI GULP
 #DESCRIPTION RAI GULP
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//viacomitalytest-lh.akamaihd.net/i/sbshdlive_1@195657/index_2500_av-p.m3u8:PARAMOUNT CHANNEL
-#DESCRIPTION PARAMOUNT CHANNEL
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//b2everyrai-lh.akamaihd.net/i/raiyoyo_1@191405/index_1200_av-b.m3u8:RAI YOYO
 #DESCRIPTION RAI YOYO
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//etbvhlsnogeo-lh.akamaihd.net/i/ETBEITBEUS_1@123113/master.m3u8:Canal ITALIA
 #DESCRIPTION Canal ITALIA
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//stmv1.hostgs.net%3a1935/jtvmilk/jtvmilk/live.m3u8:MILK TV
-#DESCRIPTION MILK TV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//77.78.130.123/hls/hd.m3u8:ROMATV HD
 #DESCRIPTION ROMATV HD
-#SERVICE 1:64:4C:0:0:0:0:0:0:0:::::::SPORTS:::
+#SERVICE 1:64:6d:0:0:0:0:0:0:0:
 #DESCRIPTION :::::SPORTS:::
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//186.33.227.198/DXTV/smil%3aDXTV.smil/playlist.m3u8:DXTV
 #DESCRIPTION DXTV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//clairinlive-a.akamaihd.net/dc-1/live/hls/p/1885581/e/1_8xzo6fux/t/YO19xXbHgW_22sNZezlmTg/master.m3u8:Tyc Sports
 #DESCRIPTION Tyc Sports
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:https%3a//elementaldelta2.redbull.tv/30_5.m3u8:Red Bull TV
-#DESCRIPTION Red Bull TV
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//adtv.ercdn.net/adsport1/adsport1_720p.m3u8:SPORT 1 HD
 #DESCRIPTION SPORT 1 HD
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//adtv.ercdn.net/adsport2/adsport2_720p.m3u8:SPORT 2 HD
 #DESCRIPTION SPORT 2 HD
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//bit.ly/2cu1v9r?m3u8:Super SPORT
-#DESCRIPTION Super SPORT
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//motorsport.hopto.org%3a8080/:motorsport
-#DESCRIPTION motorsport
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//cmt-live.hls.adaptive.level3.net/hls-live/cmt-channel4/_definst_/live/stream1.m3u8:Saudi Sports
-#DESCRIPTION Saudi Sports
-#SERVICE 1:64:4D:0:0:0:0:0:0:0:::::::MUSICA:::
+#SERVICE 1:64:6e:0:0:0:0:0:0:0:
 #DESCRIPTION :::::MUSICA:::
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//tst.es.flash.glb.ipercast.net/tst.es-live//live:HIT TV
 #DESCRIPTION HIT TV
@@ -87,21 +71,23 @@
 #DESCRIPTION The Voice
 #SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//84.43.207.130/planetahd/planetahd.m3u8:PlanetaHD
 #DESCRIPTION PlanetaHD
-#SERVICE 1:64:4E:0:0:0:0:0:0:0:::::::ADULTOS::
+#SERVICE 1:64:6f:0:0:0:0:0:0:0:
 #DESCRIPTION :::::ADULTOS::
-#SERVICE 4097:0:1:3:0:0:0:0:0:0:rtmp%3a//main2sb.everyon.tv%3a1935/etv2sb/_definst_/phd10499:Spice Tv
-#DESCRIPTION Spice Tv
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//edge2.everyon.tv/etv2sb/phd10769/playlist.m3u8:Playy 19+
-#DESCRIPTION Playy 19+
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main1sb.everyon.tv%3a1935/etv1sb/pld10497/exabytetv.m3u8:Playboy Asia
-#DESCRIPTION Playboy Asia
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10772/HasBahCa.m3u8:But Go (18+)
-#DESCRIPTION But Go (18+)
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//edge2.everyon.tv/etv2sb//pld10499:PLAYBOY TV
-#DESCRIPTION PLAYBOY TV
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10771/HasBahCa.m3u8:Sakura
-#DESCRIPTION Sakura
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//main2sb.everyon.tv%3a1935/etv2sb/pld10062/HasBahCa.m3u8:Live Ting
-#DESCRIPTION Live Ting
-#SERVICE 4097:0:1:1:0:0:0:0:0:0:rtmp%3a//edge1.everyon.tv/etv1sb/phd10927:Penthouse
-#DESCRIPTION Penthouse
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//212.250.196.74%3a1935/bsx24/_definst_/mpegts1.stream/playlists.m3u8:Red Light x24
+#DESCRIPTION Red Light x24
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//193.107.228.170%3a4000/udp/225.7.7.7%3a1717:Frenchlover TV
+#DESCRIPTION Frenchlover TV
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//de-origin-live.3qsdn.com%3a1935/2346/Ct6zG7Nrj3v2JxD/playlist.m3u8:Babestation
+#DESCRIPTION Babestation
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//publish2.firestormmedia.tv%3a1935/ingest_cellcast/encoder71/playlist.m3u8:Babestation Xtra
+#DESCRIPTION Babestation Xtra
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//publish2.firestormmedia.tv%3a1935/ingest_cellcast//livestream_two1/playlist.m3u8:Babestation Unleashed 2
+#DESCRIPTION Babestation Unleashed 2
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//inetcom.tv/get_channel.php?id=267:???????????+18
+#DESCRIPTION ???????????+18
+#SERVICE 4097:0:1:1:0:0:0:0:0:0:http%3a//inetcom.tv/get_channel.php?id=280:BrazzersTVEurope+18
+#DESCRIPTION BrazzersTVEurope+18
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//inetcom.tv/get_channel.php?id=405:Candy+18
+#DESCRIPTION Candy+18
+#SERVICE 4097:0:1:3:0:0:0:0:0:0:http%3a//inetcom.tv/get_channel.php?id=404:O-la-la+18
+#DESCRIPTION O-la-la+18
